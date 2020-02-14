@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.radixile.panvel.web.rest.LocationResourceIntTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-09-28T22:00:25" hostname="dell-PC" time="1.211">
+  <properties/>
+  <testcase name="equalsVerifier" classname="com.radixile.panvel.web.rest.LocationResourceIntTest" time="0.147"/>
+  <testcase name="updateNonExistingLocation" classname="com.radixile.panvel.web.rest.LocationResourceIntTest" time="0.113"/>
+  <testcase name="updateLocation" classname="com.radixile.panvel.web.rest.LocationResourceIntTest" time="0.135"/>
+  <testcase name="createLocation" classname="com.radixile.panvel.web.rest.LocationResourceIntTest" time="0.11"/>
+  <testcase name="getLocation" classname="com.radixile.panvel.web.rest.LocationResourceIntTest" time="0.158"/>
+  <testcase name="getNonExistingLocation" classname="com.radixile.panvel.web.rest.LocationResourceIntTest" time="0.106"/>
+  <testcase name="deleteLocation" classname="com.radixile.panvel.web.rest.LocationResourceIntTest" time="0.113"/>
+  <testcase name="checkAreaIsRequired" classname="com.radixile.panvel.web.rest.LocationResourceIntTest" time="0.108"/>
+  <testcase name="getAllLocations" classname="com.radixile.panvel.web.rest.LocationResourceIntTest" time="0.105"/>
+  <testcase name="createLocationWithExistingId" classname="com.radixile.panvel.web.rest.LocationResourceIntTest" time="0.106"/>
+  <system-out><![CDATA[2019-09-28 18:00:25.665 ERROR 4828 --- [    Test worker] c.r.panvel.web.rest.util.HeaderUtil      : Entity processing failed, Invalid id
+2019-09-28 18:00:25.665  WARN 4828 --- [    Test worker] o.z.problem.spring.common.AdviceTrait    : Bad Request: Invalid id
+2019-09-28 18:00:25.666  WARN 4828 --- [    Test worker] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [https://www.jhipster.tech/problem/problem-with-message{400, Invalid id, message=error.idnull, params=location}]
+2019-09-28 18:00:26.401  WARN 4828 --- [    Test worker] o.z.problem.spring.common.AdviceTrait    : Bad Request: Validation failed for argument at index 0 in method: public org.springframework.http.ResponseEntity<com.radixile.panvel.domain.Location> com.radixile.panvel.web.rest.LocationResource.createLocation(com.radixile.panvel.domain.Location) throws java.net.URISyntaxException, with 1 error(s): [Field error in object 'location' on field 'area': rejected value [null]; codes [NotNull.location.area,NotNull.area,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [location.area,area]; arguments []; default message [area]]; default message [must not be null]] 
+2019-09-28 18:00:26.403  WARN 4828 --- [    Test worker] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument at index 0 in method: public org.springframework.http.ResponseEntity<com.radixile.panvel.domain.Location> com.radixile.panvel.web.rest.LocationResource.createLocation(com.radixile.panvel.domain.Location) throws java.net.URISyntaxException, with 1 error(s): [Field error in object 'location' on field 'area': rejected value [null]; codes [NotNull.location.area,NotNull.area,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [location.area,area]; arguments []; default message [area]]; default message [must not be null]] ]
+2019-09-28 18:00:26.615 ERROR 4828 --- [    Test worker] c.r.panvel.web.rest.util.HeaderUtil      : Entity processing failed, A new location cannot already have an ID
+2019-09-28 18:00:26.615  WARN 4828 --- [    Test worker] o.z.problem.spring.common.AdviceTrait    : Bad Request: A new location cannot already have an ID
+2019-09-28 18:00:26.616  WARN 4828 --- [    Test worker] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [https://www.jhipster.tech/problem/problem-with-message{400, A new location cannot already have an ID, message=error.idexists, params=location}]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

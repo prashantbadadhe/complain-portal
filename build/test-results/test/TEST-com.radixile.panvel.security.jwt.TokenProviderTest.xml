@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.radixile.panvel.security.jwt.TokenProviderTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-09-28T21:59:59" hostname="dell-PC" time="0.144">
+  <properties/>
+  <testcase name="testReturnFalseWhenJWTisInvalid" classname="com.radixile.panvel.security.jwt.TokenProviderTest" time="0.08"/>
+  <testcase name="testReturnFalseWhenJWTisExpired" classname="com.radixile.panvel.security.jwt.TokenProviderTest" time="0.021"/>
+  <testcase name="testReturnFalseWhenJWThasInvalidSignature" classname="com.radixile.panvel.security.jwt.TokenProviderTest" time="0.036"/>
+  <testcase name="testReturnFalseWhenJWTisMalformed" classname="com.radixile.panvel.security.jwt.TokenProviderTest" time="0.004"/>
+  <testcase name="testReturnFalseWhenJWTisUnsupported" classname="com.radixile.panvel.security.jwt.TokenProviderTest" time="0.003"/>
+  <system-out><![CDATA[2019-09-28 17:59:59.760  INFO 4828 --- [    Test worker] c.r.panvel.security.jwt.TokenProvider    : JWT token compact of handler are invalid.
+2019-09-28 17:59:59.780  INFO 4828 --- [    Test worker] c.r.panvel.security.jwt.TokenProvider    : Expired JWT token.
+2019-09-28 17:59:59.817  INFO 4828 --- [    Test worker] c.r.panvel.security.jwt.TokenProvider    : Invalid JWT signature.
+2019-09-28 17:59:59.821  INFO 4828 --- [    Test worker] c.r.panvel.security.jwt.TokenProvider    : Invalid JWT signature.
+2019-09-28 17:59:59.824  INFO 4828 --- [    Test worker] c.r.panvel.security.jwt.TokenProvider    : Unsupported JWT token.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.radixile.panvel.web.rest.util.PaginationUtilUnitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-28T22:00:32" hostname="dell-PC" time="0.002">
+  <properties/>
+  <testcase name="generatePaginationHttpHeadersTest" classname="com.radixile.panvel.web.rest.util.PaginationUtilUnitTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

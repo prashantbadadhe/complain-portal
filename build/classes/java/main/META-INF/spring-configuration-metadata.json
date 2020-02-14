@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.radixile.panvel.config.ApplicationProperties",
+      "name": "application",
+      "type": "com.radixile.panvel.config.ApplicationProperties"
+    },
+    {
+      "sourceType": "com.radixile.panvel.config.CloudDatabaseConfiguration",
+      "name": "spring.datasource.hikari",
+      "sourceMethod": "dataSource()",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": []
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.radixile.panvel.security.DomainUserDetailsServiceIntTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-09-28T21:59:56" hostname="dell-PC" time="1.945">
+  <properties/>
+  <testcase name="assertThatUserCanNotBeFoundByEmailIgnoreCase" classname="com.radixile.panvel.security.DomainUserDetailsServiceIntTest" time="1.588"/>
+  <testcase name="assertThatEmailIsPrioritizedOverLogin" classname="com.radixile.panvel.security.DomainUserDetailsServiceIntTest" time="0.102"/>
+  <testcase name="assertThatUserNotActivatedExceptionIsThrownForNotActivatedUsers" classname="com.radixile.panvel.security.DomainUserDetailsServiceIntTest" time="0.054"/>
+  <testcase name="assertThatUserCanBeFoundByLoginIgnoreCase" classname="com.radixile.panvel.security.DomainUserDetailsServiceIntTest" time="0.059"/>
+  <testcase name="assertThatUserCanBeFoundByEmail" classname="com.radixile.panvel.security.DomainUserDetailsServiceIntTest" time="0.102"/>
+  <testcase name="assertThatUserCanBeFoundByLogin" classname="com.radixile.panvel.security.DomainUserDetailsServiceIntTest" time="0.032"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

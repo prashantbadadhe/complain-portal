@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.radixile.panvel.web.rest.UserJWTControllerIntTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-09-28T22:00:28" hostname="dell-PC" time="1.02">
+  <properties/>
+  <testcase name="testAuthorizeFails" classname="com.radixile.panvel.web.rest.UserJWTControllerIntTest" time="0.363"/>
+  <testcase name="testAuthorizeWithRememberMe" classname="com.radixile.panvel.web.rest.UserJWTControllerIntTest" time="0.332"/>
+  <testcase name="testAuthorize" classname="com.radixile.panvel.web.rest.UserJWTControllerIntTest" time="0.323"/>
+  <system-out><![CDATA[2019-09-28 18:00:28.438  WARN 4828 --- [    Test worker] o.z.problem.spring.common.AdviceTrait    : Unauthorized: Bad credentials
+2019-09-28 18:00:28.448  WARN 4828 --- [    Test worker] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authentication.BadCredentialsException: Bad credentials]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

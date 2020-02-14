@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.radixile.panvel.web.rest.BranchResourceIntTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-09-28T22:00:16" hostname="dell-PC" time="1.288">
+  <properties/>
+  <testcase name="equalsVerifier" classname="com.radixile.panvel.web.rest.BranchResourceIntTest" time="0.211"/>
+  <testcase name="checkBranchNameIsRequired" classname="com.radixile.panvel.web.rest.BranchResourceIntTest" time="0.155"/>
+  <testcase name="updateBranch" classname="com.radixile.panvel.web.rest.BranchResourceIntTest" time="0.134"/>
+  <testcase name="deleteBranch" classname="com.radixile.panvel.web.rest.BranchResourceIntTest" time="0.105"/>
+  <testcase name="updateNonExistingBranch" classname="com.radixile.panvel.web.rest.BranchResourceIntTest" time="0.111"/>
+  <testcase name="getAllBranches" classname="com.radixile.panvel.web.rest.BranchResourceIntTest" time="0.123"/>
+  <testcase name="getNonExistingBranch" classname="com.radixile.panvel.web.rest.BranchResourceIntTest" time="0.115"/>
+  <testcase name="getBranch" classname="com.radixile.panvel.web.rest.BranchResourceIntTest" time="0.102"/>
+  <testcase name="createBranch" classname="com.radixile.panvel.web.rest.BranchResourceIntTest" time="0.114"/>
+  <testcase name="createBranchWithExistingId" classname="com.radixile.panvel.web.rest.BranchResourceIntTest" time="0.107"/>
+  <system-out><![CDATA[2019-09-28 18:00:17.304  WARN 4828 --- [    Test worker] o.z.problem.spring.common.AdviceTrait    : Bad Request: Validation failed for argument at index 0 in method: public org.springframework.http.ResponseEntity<com.radixile.panvel.domain.Branch> com.radixile.panvel.web.rest.BranchResource.createBranch(com.radixile.panvel.domain.Branch) throws java.net.URISyntaxException, with 1 error(s): [Field error in object 'branch' on field 'branchName': rejected value [null]; codes [NotNull.branch.branchName,NotNull.branchName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [branch.branchName,branchName]; arguments []; default message [branchName]]; default message [must not be null]] 
+2019-09-28 18:00:17.305  WARN 4828 --- [    Test worker] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument at index 0 in method: public org.springframework.http.ResponseEntity<com.radixile.panvel.domain.Branch> com.radixile.panvel.web.rest.BranchResource.createBranch(com.radixile.panvel.domain.Branch) throws java.net.URISyntaxException, with 1 error(s): [Field error in object 'branch' on field 'branchName': rejected value [null]; codes [NotNull.branch.branchName,NotNull.branchName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [branch.branchName,branchName]; arguments []; default message [branchName]]; default message [must not be null]] ]
+2019-09-28 18:00:17.656 ERROR 4828 --- [    Test worker] c.r.panvel.web.rest.util.HeaderUtil      : Entity processing failed, Invalid id
+2019-09-28 18:00:17.656  WARN 4828 --- [    Test worker] o.z.problem.spring.common.AdviceTrait    : Bad Request: Invalid id
+2019-09-28 18:00:17.661  WARN 4828 --- [    Test worker] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [https://www.jhipster.tech/problem/problem-with-message{400, Invalid id, message=error.idnull, params=branch}]
+2019-09-28 18:00:18.227 ERROR 4828 --- [    Test worker] c.r.panvel.web.rest.util.HeaderUtil      : Entity processing failed, A new branch cannot already have an ID
+2019-09-28 18:00:18.228  WARN 4828 --- [    Test worker] o.z.problem.spring.common.AdviceTrait    : Bad Request: A new branch cannot already have an ID
+2019-09-28 18:00:18.228  WARN 4828 --- [    Test worker] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [https://www.jhipster.tech/problem/problem-with-message{400, A new branch cannot already have an ID, message=error.idexists, params=branch}]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

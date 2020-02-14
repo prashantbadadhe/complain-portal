@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.radixile.panvel.config.WebConfigurerTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-09-28T21:59:52" hostname="dell-PC" time="2.479">
+  <properties/>
+  <testcase name="testCorsFilterOnOtherPath" classname="com.radixile.panvel.config.WebConfigurerTest" time="2.169"/>
+  <testcase name="testCorsFilterDeactivated" classname="com.radixile.panvel.config.WebConfigurerTest" time="0.034"/>
+  <testcase name="testStartUpProdServletContext" classname="com.radixile.panvel.config.WebConfigurerTest" time="0.054"/>
+  <testcase name="testUndertowHttp2Enabled" classname="com.radixile.panvel.config.WebConfigurerTest" time="0.032"/>
+  <testcase name="testCorsFilterOnApiPath" classname="com.radixile.panvel.config.WebConfigurerTest" time="0.031"/>
+  <testcase name="testStartUpDevServletContext" classname="com.radixile.panvel.config.WebConfigurerTest" time="0.008"/>
+  <testcase name="testCorsFilterDeactivated2" classname="com.radixile.panvel.config.WebConfigurerTest" time="0.144"/>
+  <testcase name="testCustomizeServletContainer" classname="com.radixile.panvel.config.WebConfigurerTest" time="0.007"/>
+  <system-out><![CDATA[2019-09-28 17:59:55.100  INFO 4828 --- [    Test worker] c.radixile.panvel.config.WebConfigurer   : Web application configuration, using profiles: prod
+2019-09-28 17:59:55.124  INFO 4828 --- [    Test worker] c.radixile.panvel.config.WebConfigurer   : Web application fully configured
+2019-09-28 17:59:55.217  INFO 4828 --- [    Test worker] c.radixile.panvel.config.WebConfigurer   : Web application configuration, using profiles: dev
+2019-09-28 17:59:55.222  INFO 4828 --- [    Test worker] c.radixile.panvel.config.WebConfigurer   : Web application fully configured
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

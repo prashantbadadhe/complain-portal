@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.radixile.panvel.web.rest.AuditResourceIntTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-09-28T22:00:16" hostname="dell-PC" time="0.29">
+  <properties/>
+  <testcase name="getNonExistingAudit" classname="com.radixile.panvel.web.rest.AuditResourceIntTest" time="0.039"/>
+  <testcase name="getNonExistingAuditsByDate" classname="com.radixile.panvel.web.rest.AuditResourceIntTest" time="0.113"/>
+  <testcase name="getAllAudits" classname="com.radixile.panvel.web.rest.AuditResourceIntTest" time="0.048"/>
+  <testcase name="getAuditsByDate" classname="com.radixile.panvel.web.rest.AuditResourceIntTest" time="0.036"/>
+  <testcase name="testPersistentAuditEventEquals" classname="com.radixile.panvel.web.rest.AuditResourceIntTest" time="0.019"/>
+  <testcase name="getAudit" classname="com.radixile.panvel.web.rest.AuditResourceIntTest" time="0.026"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

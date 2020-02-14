@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.radixile.panvel.web.rest.UserResourceIntTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2019-09-28T22:00:29" hostname="dell-PC" time="2.738">
+  <properties/>
+  <testcase name="createUserWithExistingEmail" classname="com.radixile.panvel.web.rest.UserResourceIntTest" time="0.155"/>
+  <testcase name="createUserWithExistingLogin" classname="com.radixile.panvel.web.rest.UserResourceIntTest" time="0.153"/>
+  <testcase name="getAllUsers" classname="com.radixile.panvel.web.rest.UserResourceIntTest" time="0.154"/>
+  <testcase name="updateUser" classname="com.radixile.panvel.web.rest.UserResourceIntTest" time="0.163"/>
+  <testcase name="getAllAuthorities" classname="com.radixile.panvel.web.rest.UserResourceIntTest" time="0.157"/>
+  <testcase name="getUser" classname="com.radixile.panvel.web.rest.UserResourceIntTest" time="0.188"/>
+  <testcase name="createUserWithExistingId" classname="com.radixile.panvel.web.rest.UserResourceIntTest" time="0.131"/>
+  <testcase name="testUserDTOtoUser" classname="com.radixile.panvel.web.rest.UserResourceIntTest" time="0.127"/>
+  <testcase name="testUserEquals" classname="com.radixile.panvel.web.rest.UserResourceIntTest" time="0.095"/>
+  <testcase name="getNonExistingUser" classname="com.radixile.panvel.web.rest.UserResourceIntTest" time="0.102"/>
+  <testcase name="testUserFromId" classname="com.radixile.panvel.web.rest.UserResourceIntTest" time="0.096"/>
+  <testcase name="testAuthorityEquals" classname="com.radixile.panvel.web.rest.UserResourceIntTest" time="0.095"/>
+  <testcase name="updateUserExistingEmail" classname="com.radixile.panvel.web.rest.UserResourceIntTest" time="0.115"/>
+  <testcase name="updateUserExistingLogin" classname="com.radixile.panvel.web.rest.UserResourceIntTest" time="0.122"/>
+  <testcase name="createUser" classname="com.radixile.panvel.web.rest.UserResourceIntTest" time="0.237"/>
+  <testcase name="updateUserLogin" classname="com.radixile.panvel.web.rest.UserResourceIntTest" time="0.179"/>
+  <testcase name="deleteUser" classname="com.radixile.panvel.web.rest.UserResourceIntTest" time="0.28"/>
+  <testcase name="testUserToUserDTO" classname="com.radixile.panvel.web.rest.UserResourceIntTest" time="0.171"/>
+  <system-out><![CDATA[2019-09-28 18:00:29.422 ERROR 4828 --- [    Test worker] c.r.panvel.web.rest.util.HeaderUtil      : Entity processing failed, Email is already in use!
+2019-09-28 18:00:29.423  WARN 4828 --- [    Test worker] o.z.problem.spring.common.AdviceTrait    : Bad Request: Email is already in use!
+2019-09-28 18:00:29.424  WARN 4828 --- [    Test worker] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [https://www.jhipster.tech/problem/email-already-used{400, Email is already in use!, message=error.emailexists, params=userManagement}]
+2019-09-28 18:00:29.577 ERROR 4828 --- [    Test worker] c.r.panvel.web.rest.util.HeaderUtil      : Entity processing failed, Login name already used!
+2019-09-28 18:00:29.578  WARN 4828 --- [    Test worker] o.z.problem.spring.common.AdviceTrait    : Bad Request: Login name already used!
+2019-09-28 18:00:29.579  WARN 4828 --- [    Test worker] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [https://www.jhipster.tech/problem/login-already-used{400, Login name already used!, message=error.userexists, params=userManagement}]
+2019-09-28 18:00:30.378 ERROR 4828 --- [    Test worker] c.r.panvel.web.rest.util.HeaderUtil      : Entity processing failed, A new user cannot already have an ID
+2019-09-28 18:00:30.378  WARN 4828 --- [    Test worker] o.z.problem.spring.common.AdviceTrait    : Bad Request: A new user cannot already have an ID
+2019-09-28 18:00:30.379  WARN 4828 --- [    Test worker] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [https://www.jhipster.tech/problem/problem-with-message{400, A new user cannot already have an ID, message=error.idexists, params=userManagement}]
+2019-09-28 18:00:31.015 ERROR 4828 --- [    Test worker] c.r.panvel.web.rest.util.HeaderUtil      : Entity processing failed, Email is already in use!
+2019-09-28 18:00:31.016  WARN 4828 --- [    Test worker] o.z.problem.spring.common.AdviceTrait    : Bad Request: Email is already in use!
+2019-09-28 18:00:31.017  WARN 4828 --- [    Test worker] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [https://www.jhipster.tech/problem/email-already-used{400, Email is already in use!, message=error.emailexists, params=userManagement}]
+2019-09-28 18:00:31.138 ERROR 4828 --- [    Test worker] c.r.panvel.web.rest.util.HeaderUtil      : Entity processing failed, Login name already used!
+2019-09-28 18:00:31.138  WARN 4828 --- [    Test worker] o.z.problem.spring.common.AdviceTrait    : Bad Request: Login name already used!
+2019-09-28 18:00:31.139  WARN 4828 --- [    Test worker] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [https://www.jhipster.tech/problem/login-already-used{400, Login name already used!, message=error.userexists, params=userManagement}]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

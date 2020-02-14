@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.radixile.panvel.repository.CustomAuditEventRepositoryIntTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-09-28T21:59:55" hostname="dell-PC" time="0.784">
+  <properties/>
+  <testcase name="testAddEventWithWebAuthenticationDetails" classname="com.radixile.panvel.repository.CustomAuditEventRepositoryIntTest" time="0.643"/>
+  <testcase name="testAddEventWithNullData" classname="com.radixile.panvel.repository.CustomAuditEventRepositoryIntTest" time="0.014"/>
+  <testcase name="addAuditEventTruncateLargeData" classname="com.radixile.panvel.repository.CustomAuditEventRepositoryIntTest" time="0.037"/>
+  <testcase name="addAuditEventWithAuthorizationFailureType" classname="com.radixile.panvel.repository.CustomAuditEventRepositoryIntTest" time="0.03"/>
+  <testcase name="addAuditEventWithAnonymousUser" classname="com.radixile.panvel.repository.CustomAuditEventRepositoryIntTest" time="0.012"/>
+  <testcase name="addAuditEvent" classname="com.radixile.panvel.repository.CustomAuditEventRepositoryIntTest" time="0.04"/>
+  <system-out><![CDATA[2019-09-28 17:59:56.079  WARN 4828 --- [    Test worker] c.r.p.r.CustomAuditEventRepository       : Event data for test-key too long (265) has been truncated to 255. Consider increasing column width.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

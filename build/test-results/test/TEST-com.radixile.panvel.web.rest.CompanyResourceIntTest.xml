@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.radixile.panvel.web.rest.CompanyResourceIntTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-09-28T22:00:19" hostname="dell-PC" time="1.19">
+  <properties/>
+  <testcase name="equalsVerifier" classname="com.radixile.panvel.web.rest.CompanyResourceIntTest" time="0.13"/>
+  <testcase name="getNonExistingCompany" classname="com.radixile.panvel.web.rest.CompanyResourceIntTest" time="0.127"/>
+  <testcase name="createCompanyWithExistingId" classname="com.radixile.panvel.web.rest.CompanyResourceIntTest" time="0.114"/>
+  <testcase name="createCompany" classname="com.radixile.panvel.web.rest.CompanyResourceIntTest" time="0.129"/>
+  <testcase name="updateCompany" classname="com.radixile.panvel.web.rest.CompanyResourceIntTest" time="0.131"/>
+  <testcase name="updateNonExistingCompany" classname="com.radixile.panvel.web.rest.CompanyResourceIntTest" time="0.122"/>
+  <testcase name="deleteCompany" classname="com.radixile.panvel.web.rest.CompanyResourceIntTest" time="0.1"/>
+  <testcase name="getAllCompanies" classname="com.radixile.panvel.web.rest.CompanyResourceIntTest" time="0.106"/>
+  <testcase name="checkCompanyNameIsRequired" classname="com.radixile.panvel.web.rest.CompanyResourceIntTest" time="0.108"/>
+  <testcase name="getCompany" classname="com.radixile.panvel.web.rest.CompanyResourceIntTest" time="0.115"/>
+  <system-out><![CDATA[2019-09-28 18:00:19.938 ERROR 4828 --- [    Test worker] c.r.panvel.web.rest.util.HeaderUtil      : Entity processing failed, A new company cannot already have an ID
+2019-09-28 18:00:19.939  WARN 4828 --- [    Test worker] o.z.problem.spring.common.AdviceTrait    : Bad Request: A new company cannot already have an ID
+2019-09-28 18:00:19.940  WARN 4828 --- [    Test worker] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [https://www.jhipster.tech/problem/problem-with-message{400, A new company cannot already have an ID, message=error.idexists, params=company}]
+2019-09-28 18:00:20.323 ERROR 4828 --- [    Test worker] c.r.panvel.web.rest.util.HeaderUtil      : Entity processing failed, Invalid id
+2019-09-28 18:00:20.324  WARN 4828 --- [    Test worker] o.z.problem.spring.common.AdviceTrait    : Bad Request: Invalid id
+2019-09-28 18:00:20.325  WARN 4828 --- [    Test worker] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [https://www.jhipster.tech/problem/problem-with-message{400, Invalid id, message=error.idnull, params=company}]
+2019-09-28 18:00:20.640  WARN 4828 --- [    Test worker] o.z.problem.spring.common.AdviceTrait    : Bad Request: Validation failed for argument at index 0 in method: public org.springframework.http.ResponseEntity<com.radixile.panvel.domain.Company> com.radixile.panvel.web.rest.CompanyResource.createCompany(com.radixile.panvel.domain.Company) throws java.net.URISyntaxException, with 1 error(s): [Field error in object 'company' on field 'companyName': rejected value [null]; codes [NotNull.company.companyName,NotNull.companyName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [company.companyName,companyName]; arguments []; default message [companyName]]; default message [must not be null]] 
+2019-09-28 18:00:20.641  WARN 4828 --- [    Test worker] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument at index 0 in method: public org.springframework.http.ResponseEntity<com.radixile.panvel.domain.Company> com.radixile.panvel.web.rest.CompanyResource.createCompany(com.radixile.panvel.domain.Company) throws java.net.URISyntaxException, with 1 error(s): [Field error in object 'company' on field 'companyName': rejected value [null]; codes [NotNull.company.companyName,NotNull.companyName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [company.companyName,companyName]; arguments []; default message [companyName]]; default message [must not be null]] ]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.radixile.panvel.service.UserServiceIntTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-09-28T22:00:02" hostname="dell-PC" time="0.794">
+  <properties/>
+  <testcase name="assertThatOnlyActivatedUserCanRequestPasswordReset" classname="com.radixile.panvel.service.UserServiceIntTest" time="0.067"/>
+  <testcase name="assertThatUserMustExistToResetPassword" classname="com.radixile.panvel.service.UserServiceIntTest" time="0.04"/>
+  <testcase name="assertThatAnonymousUserIsNotGet" classname="com.radixile.panvel.service.UserServiceIntTest" time="0.087"/>
+  <testcase name="assertThatResetKeyMustBeValid" classname="com.radixile.panvel.service.UserServiceIntTest" time="0.055"/>
+  <testcase name="testRemoveNotActivatedUsers" classname="com.radixile.panvel.service.UserServiceIntTest" time="0.081"/>
+  <testcase name="assertThatUserCanResetPassword" classname="com.radixile.panvel.service.UserServiceIntTest" time="0.308"/>
+  <testcase name="testFindNotActivatedUsersByCreationDateBefore" classname="com.radixile.panvel.service.UserServiceIntTest" time="0.12"/>
+  <testcase name="assertThatResetKeyMustNotBeOlderThan24Hours" classname="com.radixile.panvel.service.UserServiceIntTest" time="0.022"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

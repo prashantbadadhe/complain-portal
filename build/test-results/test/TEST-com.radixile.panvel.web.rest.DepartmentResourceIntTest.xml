@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.radixile.panvel.web.rest.DepartmentResourceIntTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-09-28T22:00:22" hostname="dell-PC" time="1.342">
+  <properties/>
+  <testcase name="equalsVerifier" classname="com.radixile.panvel.web.rest.DepartmentResourceIntTest" time="0.155"/>
+  <testcase name="createDepartment" classname="com.radixile.panvel.web.rest.DepartmentResourceIntTest" time="0.128"/>
+  <testcase name="createDepartmentWithExistingId" classname="com.radixile.panvel.web.rest.DepartmentResourceIntTest" time="0.137"/>
+  <testcase name="deleteDepartment" classname="com.radixile.panvel.web.rest.DepartmentResourceIntTest" time="0.103"/>
+  <testcase name="getAllDepartments" classname="com.radixile.panvel.web.rest.DepartmentResourceIntTest" time="0.106"/>
+  <testcase name="updateDepartment" classname="com.radixile.panvel.web.rest.DepartmentResourceIntTest" time="0.135"/>
+  <testcase name="getNonExistingDepartment" classname="com.radixile.panvel.web.rest.DepartmentResourceIntTest" time="0.152"/>
+  <testcase name="checkDepartmentNameIsRequired" classname="com.radixile.panvel.web.rest.DepartmentResourceIntTest" time="0.191"/>
+  <testcase name="getDepartment" classname="com.radixile.panvel.web.rest.DepartmentResourceIntTest" time="0.116"/>
+  <testcase name="updateNonExistingDepartment" classname="com.radixile.panvel.web.rest.DepartmentResourceIntTest" time="0.108"/>
+  <system-out><![CDATA[2019-09-28 18:00:22.918 ERROR 4828 --- [    Test worker] c.r.panvel.web.rest.util.HeaderUtil      : Entity processing failed, A new department cannot already have an ID
+2019-09-28 18:00:22.919  WARN 4828 --- [    Test worker] o.z.problem.spring.common.AdviceTrait    : Bad Request: A new department cannot already have an ID
+2019-09-28 18:00:22.920  WARN 4828 --- [    Test worker] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [https://www.jhipster.tech/problem/problem-with-message{400, A new department cannot already have an ID, message=error.idexists, params=department}]
+2019-09-28 18:00:23.609  WARN 4828 --- [    Test worker] o.z.problem.spring.common.AdviceTrait    : Bad Request: Validation failed for argument at index 0 in method: public org.springframework.http.ResponseEntity<com.radixile.panvel.domain.Department> com.radixile.panvel.web.rest.DepartmentResource.createDepartment(com.radixile.panvel.domain.Department) throws java.net.URISyntaxException, with 1 error(s): [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotNull.department.departmentName,NotNull.departmentName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [must not be null]] 
+2019-09-28 18:00:23.611  WARN 4828 --- [    Test worker] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument at index 0 in method: public org.springframework.http.ResponseEntity<com.radixile.panvel.domain.Department> com.radixile.panvel.web.rest.DepartmentResource.createDepartment(com.radixile.panvel.domain.Department) throws java.net.URISyntaxException, with 1 error(s): [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotNull.department.departmentName,NotNull.departmentName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [must not be null]] ]
+2019-09-28 18:00:23.838 ERROR 4828 --- [    Test worker] c.r.panvel.web.rest.util.HeaderUtil      : Entity processing failed, Invalid id
+2019-09-28 18:00:23.839  WARN 4828 --- [    Test worker] o.z.problem.spring.common.AdviceTrait    : Bad Request: Invalid id
+2019-09-28 18:00:23.840  WARN 4828 --- [    Test worker] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [https://www.jhipster.tech/problem/problem-with-message{400, Invalid id, message=error.idnull, params=department}]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

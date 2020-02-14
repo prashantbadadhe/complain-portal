@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.radixile.panvel.web.rest.ComplainResourceIntTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-09-28T22:00:20" hostname="dell-PC" time="1.502">
+  <properties/>
+  <testcase name="equalsVerifier" classname="com.radixile.panvel.web.rest.ComplainResourceIntTest" time="0.118"/>
+  <testcase name="createComplainWithExistingId" classname="com.radixile.panvel.web.rest.ComplainResourceIntTest" time="0.169"/>
+  <testcase name="updateNonExistingComplain" classname="com.radixile.panvel.web.rest.ComplainResourceIntTest" time="0.169"/>
+  <testcase name="updateComplain" classname="com.radixile.panvel.web.rest.ComplainResourceIntTest" time="0.219"/>
+  <testcase name="createComplain" classname="com.radixile.panvel.web.rest.ComplainResourceIntTest" time="0.171"/>
+  <testcase name="getAllComplains" classname="com.radixile.panvel.web.rest.ComplainResourceIntTest" time="0.178"/>
+  <testcase name="getComplain" classname="com.radixile.panvel.web.rest.ComplainResourceIntTest" time="0.168"/>
+  <testcase name="getNonExistingComplain" classname="com.radixile.panvel.web.rest.ComplainResourceIntTest" time="0.187"/>
+  <testcase name="deleteComplain" classname="com.radixile.panvel.web.rest.ComplainResourceIntTest" time="0.112"/>
+  <system-out><![CDATA[2019-09-28 18:00:21.170 ERROR 4828 --- [    Test worker] c.r.panvel.web.rest.util.HeaderUtil      : Entity processing failed, A new complain cannot already have an ID
+2019-09-28 18:00:21.171  WARN 4828 --- [    Test worker] o.z.problem.spring.common.AdviceTrait    : Bad Request: A new complain cannot already have an ID
+2019-09-28 18:00:21.172  WARN 4828 --- [    Test worker] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [https://www.jhipster.tech/problem/problem-with-message{400, A new complain cannot already have an ID, message=error.idexists, params=complain}]
+2019-09-28 18:00:21.339 ERROR 4828 --- [    Test worker] c.r.panvel.web.rest.util.HeaderUtil      : Entity processing failed, Invalid id
+2019-09-28 18:00:21.340  WARN 4828 --- [    Test worker] o.z.problem.spring.common.AdviceTrait    : Bad Request: Invalid id
+2019-09-28 18:00:21.341  WARN 4828 --- [    Test worker] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [https://www.jhipster.tech/problem/problem-with-message{400, Invalid id, message=error.idnull, params=complain}]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

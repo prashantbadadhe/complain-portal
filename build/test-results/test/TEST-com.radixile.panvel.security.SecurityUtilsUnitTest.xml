@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.radixile.panvel.security.SecurityUtilsUnitTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-09-28T21:59:59" hostname="dell-PC" time="0.021">
+  <properties/>
+  <testcase name="testIsCurrentUserInRole" classname="com.radixile.panvel.security.SecurityUtilsUnitTest" time="0.014"/>
+  <testcase name="testIsAuthenticated" classname="com.radixile.panvel.security.SecurityUtilsUnitTest" time="0.001"/>
+  <testcase name="testgetCurrentUserJWT" classname="com.radixile.panvel.security.SecurityUtilsUnitTest" time="0.004"/>
+  <testcase name="testgetCurrentUserLogin" classname="com.radixile.panvel.security.SecurityUtilsUnitTest" time="0.0"/>
+  <testcase name="testAnonymousIsNotAuthenticated" classname="com.radixile.panvel.security.SecurityUtilsUnitTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

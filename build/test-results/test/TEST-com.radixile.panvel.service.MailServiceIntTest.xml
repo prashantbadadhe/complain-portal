@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.radixile.panvel.service.MailServiceIntTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-09-28T22:00:00" hostname="dell-PC" time="1.844">
+  <properties/>
+  <testcase name="testSendPasswordResetMail" classname="com.radixile.panvel.service.MailServiceIntTest" time="1.173"/>
+  <testcase name="testCreationEmail" classname="com.radixile.panvel.service.MailServiceIntTest" time="0.019"/>
+  <testcase name="testSendEmailWithException" classname="com.radixile.panvel.service.MailServiceIntTest" time="0.043"/>
+  <testcase name="testSendHtmlEmail" classname="com.radixile.panvel.service.MailServiceIntTest" time="0.014"/>
+  <testcase name="testSendMultipartHtmlEmail" classname="com.radixile.panvel.service.MailServiceIntTest" time="0.43"/>
+  <testcase name="testSendEmail" classname="com.radixile.panvel.service.MailServiceIntTest" time="0.015"/>
+  <testcase name="testSendMultipartEmail" classname="com.radixile.panvel.service.MailServiceIntTest" time="0.008"/>
+  <testcase name="testSendActivationEmail" classname="com.radixile.panvel.service.MailServiceIntTest" time="0.078"/>
+  <testcase name="testSendEmailFromTemplate" classname="com.radixile.panvel.service.MailServiceIntTest" time="0.017"/>
+  <system-out><![CDATA[2019-09-28 18:00:01.541  WARN 4828 --- [    Test worker] com.radixile.panvel.service.MailService  : Email could not be sent to user 'john.doe@example.com': null
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,366 @@
+Manifest-Version: 1.0
+Class-Path: /C:/Users/dell/.gradle/caches/modules-2/files-2.1/org.spri
+ ngframework.boot/spring-boot-devtools/2.0.6.RELEASE/bf47c37f19f4fdcbf
+ d0237a220ac1ccf40768476/spring-boot-devtools-2.0.6.RELEASE.jar /C:/Us
+ ers/dell/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.197
+ /bb391050048ca8ae3e32451b5a3714ecd3596a46/h2-1.4.197.jar /C:/Users/de
+ ll/.gradle/caches/modules-2/files-2.1/io.github.jhipster/jhipster-fra
+ mework/2.0.28/79dcdd8c50c4a5dbbc3a571cf29250030a2df9cd/jhipster-frame
+ work-2.0.28.jar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/org
+ .springframework.boot/spring-boot-starter-cache/2.0.6.RELEASE/9a4a1d3
+ f065a42fd1a34aac6e1cd151177390c06/spring-boot-starter-cache-2.0.6.REL
+ EASE.jar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/io.dropwiz
+ ard.metrics/metrics-jcache/3.2.6/1f0e06bc93aa17494438f195fe3bf128047e
+ ac57/metrics-jcache-3.2.6.jar /C:/Users/dell/.gradle/caches/modules-2
+ /files-2.1/io.dropwizard.metrics/metrics-servlets/3.2.6/4f34f8992a049
+ a05d5ae83c14d47c2294c1ed2f6/metrics-servlets-3.2.6.jar /C:/Users/dell
+ /.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-jso
+ n/3.2.6/acf6fc80faa8e2cdb4d135e2db659d561d44f710/metrics-json-3.2.6.j
+ ar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/io.dropwizard.me
+ trics/metrics-jvm/3.2.6/a7a475393fe47dfee2042415430da3f01d4fe94e/metr
+ ics-jvm-3.2.6.jar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/i
+ o.dropwizard.metrics/metrics-servlet/3.2.6/9e1352d0697b96b4935235b098
+ 96b941fd4e5798/metrics-servlet-3.2.6.jar /C:/Users/dell/.gradle/cache
+ s/modules-2/files-2.1/io.prometheus/simpleclient_dropwizard/0.5.0/a08
+ 63bc76dfcd0e47eba1f56343637afe53c8d2e/simpleclient_dropwizard-0.5.0.j
+ ar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/com.ryantenney.m
+ etrics/metrics-spring/3.1.3/9fb02eb930dbe1778b015924770ac853cd7b832e/
+ metrics-spring-3.1.3.jar /C:/Users/dell/.gradle/caches/modules-2/file
+ s-2.1/io.dropwizard.metrics/metrics-core/3.2.6/62fe170cffeded1cef60e9
+ e3402a93b45ce14327/metrics-core-3.2.6.jar /C:/Users/dell/.gradle/cach
+ es/modules-2/files-2.1/io.prometheus/simpleclient_servlet/0.5.0/28d75
+ ee90a5c2ac70eeebb0864b15885116207a4/simpleclient_servlet-0.5.0.jar /C
+ :/Users/dell/.gradle/caches/modules-2/files-2.1/io.prometheus/simplec
+ lient_common/0.5.0/bfd93082d7cf85c0543c2ccc286b96c817d1090c/simplecli
+ ent_common-0.5.0.jar /C:/Users/dell/.gradle/caches/modules-2/files-2.
+ 1/io.prometheus/simpleclient/0.5.0/fbbfe2300098798e3d23f93b7b14befece
+ acf512/simpleclient-0.5.0.jar /C:/Users/dell/.gradle/caches/modules-2
+ /files-2.1/net.logstash.logback/logstash-logback-encoder/5.2/52c79b37
+ 4e57ff09a9a366323f9946de811afe1e/logstash-logback-encoder-5.2.jar /C:
+ /Users/dell/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.
+ datatype/jackson-datatype-hppc/2.9.7/63ed1c33594bd09ed9a40b20988d28f0
+ 95e7a236/jackson-datatype-hppc-2.9.7.jar /C:/Users/dell/.gradle/cache
+ s/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-ac
+ tuator/2.0.6.RELEASE/e883ca43beebc8d1726346e647c5f74d223aefc6/spring-
+ boot-starter-actuator-2.0.6.RELEASE.jar /C:/Users/dell/.gradle/caches
+ /modules-2/files-2.1/org.springframework.boot/spring-boot-actuator-au
+ toconfigure/2.0.6.RELEASE/416d0c6cd9e249f1f811e6d07edc09f68c9b1198/sp
+ ring-boot-actuator-autoconfigure-2.0.6.RELEASE.jar /C:/Users/dell/.gr
+ adle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-
+ starter-web/2.0.6.RELEASE/e803fc341b450b2ce01734df12e5881b8e78c0a7/sp
+ ring-boot-starter-web-2.0.6.RELEASE.jar /C:/Users/dell/.gradle/caches
+ /modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jso
+ n/2.0.6.RELEASE/1b3912af3eecdbbc6cda497acc7939f2ce21e39d/spring-boot-
+ starter-json-2.0.6.RELEASE.jar /C:/Users/dell/.gradle/caches/modules-
+ 2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.
+ 9.7/cbd919f1ce67533e07b98dd493247e8dbabc26b2/jackson-datatype-jsr310-
+ 2.9.7.jar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/com.faste
+ rxml.jackson.datatype/jackson-datatype-hibernate5/2.9.7/8638837eb3b2f
+ ebd402886aa69a8f39193e2b0f2/jackson-datatype-hibernate5-2.9.7.jar /C:
+ /Users/dell/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.
+ module/jackson-module-afterburner/2.9.7/8f864e3a2bb4da738d8cdc56f3825
+ 298bee8b943/jackson-module-afterburner-2.9.7.jar /C:/Users/dell/.grad
+ le/caches/modules-2/files-2.1/io.jsonwebtoken/jjwt-jackson/0.10.5/eb9
+ 9c1575f73a56b7adaa478b5ad140c7b105fa4/jjwt-jackson-0.10.5.jar /C:/Use
+ rs/dell/.gradle/caches/modules-2/files-2.1/org.zalando/problem-spring
+ -web/0.24.0-RC.0/b9b3f1f7e82edc5dba0ba3121e1c80c5c60dba67/problem-spr
+ ing-web-0.24.0-RC.0.jar /C:/Users/dell/.gradle/caches/modules-2/files
+ -2.1/org.zalando/problem-spring-common/0.24.0-RC.0/c25bfe1f03610b7ada
+ e5bd1f9c04c4dcf9e3d8ee/problem-spring-common-0.24.0-RC.0.jar /C:/User
+ s/dell/.gradle/caches/modules-2/files-2.1/org.zalando/problem-violati
+ ons/0.24.0-RC.0/dd9bdc672d127bad23239f13f32a6e2295577d47/problem-viol
+ ations-0.24.0-RC.0.jar /C:/Users/dell/.gradle/caches/modules-2/files-
+ 2.1/org.zalando/jackson-datatype-problem/0.21.0/63bb96418d5dce40feb47
+ e7e904fdf597f497295/jackson-datatype-problem-0.21.0.jar /C:/Users/del
+ l/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/j
+ ackson-datatype-jdk8/2.9.7/98d8f190db07f97c64c0ea3af5792f718a6c2cc1/j
+ ackson-datatype-jdk8-2.9.7.jar /C:/Users/dell/.gradle/caches/modules-
+ 2/files-2.1/com.fasterxml.jackson.module/jackson-module-parameter-nam
+ es/2.9.7/f2bdd7696beffa2dbc5dc62cd24c3906a40ffcff/jackson-module-para
+ meter-names-2.9.7.jar /C:/Users/dell/.gradle/caches/modules-2/files-2
+ .1/com.fasterxml.jackson.core/jackson-databind/2.9.7/e6faad47abd31796
+ 66e89068485a1b88a195ceb7/jackson-databind-2.9.7.jar /C:/Users/dell/.g
+ radle/caches/modules-2/files-2.1/io.springfox/springfox-swagger2/2.9.
+ 2/362676bc7f4c6f9f1d568741becab0dfc198c898/springfox-swagger2-2.9.2.j
+ ar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/io.springfox/spr
+ ingfox-swagger-common/2.9.2/b38a41b3044af80cb7f41f67be5d158c9f6491ec/
+ springfox-swagger-common-2.9.2.jar /C:/Users/dell/.gradle/caches/modu
+ les-2/files-2.1/io.swagger/swagger-models/1.5.20/fb3a23bad80c5ed84db9
+ dd150db2cba699531458/swagger-models-1.5.20.jar /C:/Users/dell/.m2/rep
+ ository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-
+ annotations-2.9.0.jar /C:/Users/dell/.gradle/caches/modules-2/files-2
+ .1/javax.cache/cache-api/1.1.0/77bdcff7814076dfa61611b0db88487c515150
+ b6/cache-api-1.1.0.jar /C:/Users/dell/.gradle/caches/modules-2/files-
+ 2.1/org.hibernate/hibernate-entitymanager/5.2.17.Final/5274a6b444c2dd
+ baa07b227f09cccc7d13d93ef7/hibernate-entitymanager-5.2.17.Final.jar /
+ C:/Users/dell/.gradle/caches/modules-2/files-2.1/org.hibernate/hibern
+ ate-envers/5.2.17.Final/662364e20415a940fb440da5c6d4b594de13f548/hibe
+ rnate-envers-5.2.17.Final.jar /C:/Users/dell/.gradle/caches/modules-2
+ /files-2.1/org.springframework.boot/spring-boot-starter-data-jpa/2.0.
+ 6.RELEASE/5c73f7a2c27920a32eefb8b172f3aa387295751b/spring-boot-starte
+ r-data-jpa-2.0.6.RELEASE.jar /C:/Users/dell/.gradle/caches/modules-2/
+ files-2.1/org.hibernate/hibernate-core/5.2.17.Final/f2dc36470e7a2ffcf
+ 6106bb1625ecf5b54bb5f65/hibernate-core-5.2.17.Final.jar /C:/Users/del
+ l/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-
+ boot-starter-jdbc/2.0.6.RELEASE/5a65c8ce23562f18d70df947bffcd353e1ac2
+ a41/spring-boot-starter-jdbc-2.0.6.RELEASE.jar /C:/Users/dell/.gradle
+ /caches/modules-2/files-2.1/com.zaxxer/HikariCP/2.7.9/a83113d2c091d0d
+ 0f853dad3217bd7df3beb6ae3/HikariCP-2.7.9.jar /C:/Users/dell/.gradle/c
+ aches/modules-2/files-2.1/org.springframework.boot/spring-boot-starte
+ r-cloud-connectors/2.0.6.RELEASE/506078d1ea77706b8de1831fd2a197ad48c6
+ b035/spring-boot-starter-cloud-connectors-2.0.6.RELEASE.jar /C:/Users
+ /dell/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/sp
+ ring-cloud-localconfig-connector/2.0.3.RELEASE/4da39f5d656abf5be4d909
+ 8eb83d3906cea79e79/spring-cloud-localconfig-connector-2.0.3.RELEASE.j
+ ar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/org.apache.commo
+ ns/commons-lang3/3.7/557edd918fd41f9260963583ebf5a61a43a6b423/commons
+ -lang3-3.7.jar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/comm
+ ons-io/commons-io/2.6/815893df5f31da2ece4040fe0a12fd44b577afaf/common
+ s-io-2.6.jar /C:/Users/dell/.m2/repository/javax/transaction/javax.tr
+ ansaction-api/1.2/javax.transaction-api-1.2.jar /C:/Users/dell/.gradl
+ e/caches/modules-2/files-2.1/org.ehcache/ehcache/3.5.3/b81a3c3f1ba4fe
+ ea2262d24f256fed501f2f4c48/ehcache-3.5.3.jar /C:/Users/dell/.gradle/c
+ aches/modules-2/files-2.1/org.hibernate.validator/hibernate-validator
+ /6.0.13.Final/af4232bf90ecd33c71147d67185dbb1cfe8f33df/hibernate-vali
+ dator-6.0.13.Final.jar /C:/Users/dell/.gradle/caches/modules-2/files-
+ 2.1/org.liquibase/liquibase-core/3.5.5/c65051f327382018bd09c30380f25e
+ ac96f210da/liquibase-core-3.5.5.jar /C:/Users/dell/.gradle/caches/mod
+ ules-2/files-2.1/com.mattbertolini/liquibase-slf4j/2.0.0/15d0d15b546e
+ f66caf3385a3c13aeb75663b3ba4/liquibase-slf4j-2.0.0.jar /C:/Users/dell
+ /.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-b
+ oot-loader-tools/2.0.6.RELEASE/66a2874fde69f7699ba8a421a50ec43c937808
+ 80/spring-boot-loader-tools-2.0.6.RELEASE.jar /C:/Users/dell/.gradle/
+ caches/modules-2/files-2.1/org.springframework.boot/spring-boot-start
+ er-mail/2.0.6.RELEASE/337a0bbf667666db8fcdf193ffddf455d0bd62dd/spring
+ -boot-starter-mail-2.0.6.RELEASE.jar /C:/Users/dell/.gradle/caches/mo
+ dules-2/files-2.1/org.springframework.boot/spring-boot-starter-aop/2.
+ 0.6.RELEASE/f3db2e05267686fd97af5460a155bac4298fab4d/spring-boot-star
+ ter-aop-2.0.6.RELEASE.jar /C:/Users/dell/.gradle/caches/modules-2/fil
+ es-2.1/org.springframework.boot/spring-boot-starter-security/2.0.6.RE
+ LEASE/d3f8018d60d493467c1e8c9e496704dfc9cfefae/spring-boot-starter-se
+ curity-2.0.6.RELEASE.jar /C:/Users/dell/.gradle/caches/modules-2/file
+ s-2.1/org.springframework.boot/spring-boot-starter-thymeleaf/2.0.6.RE
+ LEASE/7ee5f8434d42df745d2af7191fd6a47aef7fa97/spring-boot-starter-thy
+ meleaf-2.0.6.RELEASE.jar /C:/Users/dell/.gradle/caches/modules-2/file
+ s-2.1/org.springframework.boot/spring-boot-starter/2.0.6.RELEASE/9d90
+ 4a4387e076343a3478c32198ec7d9d633ff4/spring-boot-starter-2.0.6.RELEAS
+ E.jar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/org.springfra
+ mework.boot/spring-boot-starter-logging/2.0.6.RELEASE/a730d62c8eb80cd
+ c95e5089e47570d24731cf5dd/spring-boot-starter-logging-2.0.6.RELEASE.j
+ ar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/org.springframew
+ ork.boot/spring-boot-starter-undertow/2.0.6.RELEASE/166b3965d8f301261
+ 11fb7439350c30f708aad7a/spring-boot-starter-undertow-2.0.6.RELEASE.ja
+ r /C:/Users/dell/.gradle/caches/modules-2/files-2.1/org.springframewo
+ rk.security/spring-security-config/5.0.9.RELEASE/4cb7f117bb109edcb351
+ 93b72b4f578c20eff351/spring-security-config-5.0.9.RELEASE.jar /C:/Use
+ rs/dell/.gradle/caches/modules-2/files-2.1/org.springframework.securi
+ ty/spring-security-data/5.0.9.RELEASE/b34307ca986f7eea9ad104141920631
+ 5351ad5b/spring-security-data-5.0.9.RELEASE.jar /C:/Users/dell/.gradl
+ e/caches/modules-2/files-2.1/org.springframework.security/spring-secu
+ rity-web/5.0.9.RELEASE/653bd41b480d33c9122a00ed0342b21f9c853139/sprin
+ g-security-web-5.0.9.RELEASE.jar /C:/Users/dell/.gradle/caches/module
+ s-2/files-2.1/io.jsonwebtoken/jjwt-impl/0.10.5/f6d6dc168128f40652ca97
+ 3b212f483f0e0765e3/jjwt-impl-0.10.5.jar /C:/Users/dell/.gradle/caches
+ /modules-2/files-2.1/io.jsonwebtoken/jjwt-api/0.10.5/4bcf9036f62a404d
+ 6abecfffb37eae9033248933/jjwt-api-0.10.5.jar /C:/Users/dell/.gradle/c
+ aches/modules-2/files-2.1/io.springfox/springfox-bean-validators/2.9.
+ 2/b3faf1ce16918ffc9c3b9932855dd667ab390b95/springfox-bean-validators-
+ 2.9.2.jar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/org.postg
+ resql/postgresql/42.2.5/951b7eda125f3137538a94e2cbdcf744088ad4c2/post
+ gresql-42.2.5.jar /C:/Users/dell/.m2/repository/org/mapstruct/mapstru
+ ct-jdk8/1.2.0.Final/mapstruct-jdk8-1.2.0.Final.jar /C:/Users/dell/.gr
+ adle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-
+ actuator/2.0.6.RELEASE/c71f18a214c99f719ac567c6e9547b43aed0d803/sprin
+ g-boot-actuator-2.0.6.RELEASE.jar /C:/Users/dell/.gradle/caches/modul
+ es-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.0
+ .6.RELEASE/e8c88fd703dbdf79f94178a5018ad67d1ecb1d0d/spring-boot-autoc
+ onfigure-2.0.6.RELEASE.jar /C:/Users/dell/.gradle/caches/modules-2/fi
+ les-2.1/org.springframework.boot/spring-boot/2.0.6.RELEASE/4d214b08bb
+ c74f03d404e8fc862102334e0f73d1/spring-boot-2.0.6.RELEASE.jar /C:/User
+ s/dell/.gradle/caches/modules-2/files-2.1/org.springframework/spring-
+ context-support/5.0.10.RELEASE/61b3159aceaae05118bfe2a7fcd4141921986a
+ 78/spring-context-support-5.0.10.RELEASE.jar /C:/Users/dell/.gradle/c
+ aches/modules-2/files-2.1/org.springframework.data/spring-data-jpa/2.
+ 0.11.RELEASE/40106aade7ec8ec9e3310d25a5c310dd7e8260d5/spring-data-jpa
+ -2.0.11.RELEASE.jar /C:/Users/dell/.gradle/caches/modules-2/files-2.1
+ /org.springframework/spring-webmvc/5.0.10.RELEASE/88a601321e2b4e3b84e
+ ed0909c24b9dd8e453b5f/spring-webmvc-5.0.10.RELEASE.jar /C:/Users/dell
+ /.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-
+ cloud-spring-service-connector/2.0.3.RELEASE/aecb7d0ff8ea560f16954ecd
+ a1461ed8da103282/spring-cloud-spring-service-connector-2.0.3.RELEASE.
+ jar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/org.springframe
+ work.security/spring-security-core/5.0.9.RELEASE/d292ed9b140de0095263
+ cb418dd89879ea629763/spring-security-core-5.0.9.RELEASE.jar /C:/Users
+ /dell/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-sprin
+ g-web/2.9.2/ed2ed714a6cba8804d00f80f0534901e4c7a3211/springfox-spring
+ -web-2.9.2.jar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/io.s
+ pringfox/springfox-schema/2.9.2/e268f38774b16bb51a92ccaef0dcf3dc651c0
+ cee/springfox-schema-2.9.2.jar /C:/Users/dell/.gradle/caches/modules-
+ 2/files-2.1/io.springfox/springfox-spi/2.9.2/6ac686190a6ceaccdae8b50d
+ 03b0501d144a6666/springfox-spi-2.9.2.jar /C:/Users/dell/.gradle/cache
+ s/modules-2/files-2.1/io.springfox/springfox-core/2.9.2/2e26f58939c59
+ 4fb5c958c3a1c7bedf83d2f2702/springfox-core-2.9.2.jar /C:/Users/dell/.
+ m2/repository/org/springframework/plugin/spring-plugin-metadata/1.2.0
+ .RELEASE/spring-plugin-metadata-1.2.0.RELEASE.jar /C:/Users/dell/.m2/
+ repository/org/springframework/plugin/spring-plugin-core/1.2.0.RELEAS
+ E/spring-plugin-core-1.2.0.RELEASE.jar /C:/Users/dell/.gradle/caches/
+ modules-2/files-2.1/org.springframework/spring-context/5.0.10.RELEASE
+ /6f53de0618219fefc2aebf92ba175e6b33e14ce0/spring-context-5.0.10.RELEA
+ SE.jar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/io.dropwizar
+ d.metrics/metrics-healthchecks/3.2.6/10ba0fd7548d553fbc031ab5a8ffbf34
+ 89904746/metrics-healthchecks-3.2.6.jar /C:/Users/dell/.gradle/caches
+ /modules-2/files-2.1/io.dropwizard.metrics/metrics-annotation/3.2.6/5
+ 893ba8cff0909b5273352f2f19bd4ada02673df/metrics-annotation-3.2.6.jar 
+ /C:/Users/dell/.gradle/caches/modules-2/files-2.1/org.thymeleaf/thyme
+ leaf-spring5/3.0.10.RELEASE/56e683bd27aefccdf41a900feb9cddd72015fe59/
+ thymeleaf-spring5-3.0.10.RELEASE.jar /C:/Users/dell/.gradle/caches/mo
+ dules-2/files-2.1/org.thymeleaf.extras/thymeleaf-extras-java8time/3.0
+ .1.RELEASE/d23760d1e53cd70c489ef40dc94ee6bd2371cceb/thymeleaf-extras-
+ java8time-3.0.1.RELEASE.jar /C:/Users/dell/.gradle/caches/modules-2/f
+ iles-2.1/org.zalando/faux-pas/0.8.0/4a2d93111b2b5e35577fdf641a7551d35
+ 44b414f/faux-pas-0.8.0.jar /C:/Users/dell/.gradle/caches/modules-2/fi
+ les-2.1/org.springframework.data/spring-data-commons/2.0.11.RELEASE/2
+ 73e5cd5d6e772b5c4208b12771ed48647b2b9bb/spring-data-commons-2.0.11.RE
+ LEASE.jar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/org.thyme
+ leaf/thymeleaf/3.0.10.RELEASE/222fc330c04373399f7460b4df978d3e6d8aa95
+ 1/thymeleaf-3.0.10.RELEASE.jar /C:/Users/dell/.m2/repository/ch/qos/l
+ ogback/logback-classic/1.2.3/logback-classic-1.2.3.jar /C:/Users/dell
+ /.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-to
+ -slf4j/2.10.0/f7e631ccf49cfc0aefa4a2a728da7d374c05bd3c/log4j-to-slf4j
+ -2.10.0.jar /C:/Users/dell/.m2/repository/org/slf4j/jul-to-slf4j/1.7.
+ 25/jul-to-slf4j-1.7.25.jar /C:/Users/dell/.m2/repository/org/slf4j/sl
+ f4j-api/1.7.25/slf4j-api-1.7.25.jar /C:/Users/dell/.gradle/caches/mod
+ ules-2/files-2.1/com.papertrail/profiler/1.0.2/138093a4ed2da6f0b07a2a
+ 2335584bd5a7d53bff/profiler-1.0.2.jar /C:/Users/dell/.gradle/caches/m
+ odules-2/files-2.1/com.carrotsearch/hppc/0.7.1/8b5057f74ea378c0150a18
+ 60874a3ebdcb713767/hppc-0.7.1.jar /C:/Users/dell/.gradle/caches/modul
+ es-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.7/4b7f0e0d
+ c527fab032e9800ed231080fdc3ac015/jackson-core-2.9.7.jar /C:/Users/del
+ l/.gradle/caches/modules-2/files-2.1/javax.transaction/jta/1.1/2ca09f
+ 0b36ca7d71b762e14ea2ff09d5eac57558/jta-1.1.jar /C:/Users/dell/.gradle
+ /caches/modules-2/files-2.1/org.springframework/spring-web/5.0.10.REL
+ EASE/fbaaa53ec99f45fd7aaf9125beeb5c3388cce088/spring-web-5.0.10.RELEA
+ SE.jar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/org.springfr
+ amework/spring-expression/5.0.10.RELEASE/eaf8595e3bf18ef1aca1c233d987
+ 1552d258e38a/spring-expression-5.0.10.RELEASE.jar /C:/Users/dell/.gra
+ dle/caches/modules-2/files-2.1/org.springframework/spring-orm/5.0.10.
+ RELEASE/ea0e14a753820eb47b63654e495ea370841da156/spring-orm-5.0.10.RE
+ LEASE.jar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/org.sprin
+ gframework/spring-jdbc/5.0.10.RELEASE/16ff6fad897185eb3fb01c58796de04
+ b9b1e8c86/spring-jdbc-5.0.10.RELEASE.jar /C:/Users/dell/.gradle/cache
+ s/modules-2/files-2.1/org.springframework/spring-aop/5.0.10.RELEASE/d
+ a65874f61aef9c25db794f493e50683346d3056/spring-aop-5.0.10.RELEASE.jar
+  /C:/Users/dell/.gradle/caches/modules-2/files-2.1/org.springframewor
+ k/spring-tx/5.0.10.RELEASE/55608ae84fde15eb942d675e3b1ee7d30394d4cb/s
+ pring-tx-5.0.10.RELEASE.jar /C:/Users/dell/.gradle/caches/modules-2/f
+ iles-2.1/org.springframework/spring-beans/5.0.10.RELEASE/8ec7da928082
+ a123c50d5d70cd4b46382db27e8b/spring-beans-5.0.10.RELEASE.jar /C:/User
+ s/dell/.gradle/caches/modules-2/files-2.1/org.springframework/spring-
+ core/5.0.10.RELEASE/cb270a60ceb573961588f511222984de64b4bc96/spring-c
+ ore-5.0.10.RELEASE.jar /C:/Users/dell/.m2/repository/org/hibernate/co
+ mmon/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-anno
+ tations-5.0.1.Final.jar /C:/Users/dell/.gradle/caches/modules-2/files
+ -2.1/io.undertow/undertow-websockets-jsr/1.4.26.Final/2821318aae1db1b
+ 5b446f908aa87a36b91db8c75/undertow-websockets-jsr-1.4.26.Final.jar /C
+ :/Users/dell/.gradle/caches/modules-2/files-2.1/io.undertow/undertow-
+ servlet/1.4.26.Final/837a57dc5f0617899c7abe3b66642875267d7149/underto
+ w-servlet-1.4.26.Final.jar /C:/Users/dell/.gradle/caches/modules-2/fi
+ les-2.1/io.undertow/undertow-core/1.4.26.Final/c9c6225c9a9535c43706ad
+ 9667bd84159f5ec7f6/undertow-core-1.4.26.Final.jar /C:/Users/dell/.m2/
+ repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-
+ 3.3.2.Final.jar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/org
+ .hibernate.javax.persistence/hibernate-jpa-2.1-api/1.0.2.Final/52afb5
+ 762c704a6b586e27742470c08f91877fc1/hibernate-jpa-2.1-api-1.0.2.Final.
+ jar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/org.javassist/j
+ avassist/3.22.0-GA/3e83394258ae2089be7219b971ec21a8288528ad/javassist
+ -3.22.0-GA.jar /C:/Users/dell/.m2/repository/antlr/antlr/2.7.7/antlr-
+ 2.7.7.jar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/org.jboss
+ .spec.javax.transaction/jboss-transaction-api_1.2_spec/1.0.1.Final/44
+ 41f144a2a1f46ed48fcc6b476a4b6295e6d524/jboss-transaction-api_1.2_spec
+ -1.0.1.Final.jar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/or
+ g.jboss/jandex/2.0.3.Final/bfc4d6257dbff7a33a357f0de116be6ff951d849/j
+ andex-2.0.3.Final.jar /C:/Users/dell/.m2/repository/com/fasterxml/cla
+ ssmate/1.3.4/classmate-1.3.4.jar /C:/Users/dell/.m2/repository/dom4j/
+ dom4j/1.6.1/dom4j-1.6.1.jar /C:/Users/dell/.gradle/caches/modules-2/f
+ iles-2.1/net.bytebuddy/byte-buddy/1.7.11/f02857a4e2c66ccbe7aaad6100a0
+ a6c461bce9b3/byte-buddy-1.7.11.jar /C:/Users/dell/.m2/repository/java
+ x/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.ja
+ r /C:/Users/dell/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyam
+ l/1.19/2d998d3d674b172a588e54ab619854d073f555b5/snakeyaml-1.19.jar /C
+ :/Users/dell/.gradle/caches/modules-2/files-2.1/org.apache.commons/co
+ mmons-compress/1.14/7b18320d668ab080758bf5383d6d8fcf750babce/commons-
+ compress-1.14.jar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/c
+ om.sun.mail/javax.mail/1.6.2/935151eb71beff17a2ffac15dd80184a99a0514f
+ /javax.mail-1.6.2.jar /C:/Users/dell/.gradle/caches/modules-2/files-2
+ .1/io.micrometer/micrometer-core/1.0.7/f0e7ce9e6b3cc287fd1bfcfbaa4764
+ b7102656a7/micrometer-core-1.0.7.jar /C:/Users/dell/.gradle/caches/mo
+ dules-2/files-2.1/org.springframework/spring-aspects/5.0.10.RELEASE/1
+ c86d8efa425cdbe7e6d2681816d388c0d30efa7/spring-aspects-5.0.10.RELEASE
+ .jar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/org.aspectj/as
+ pectjweaver/1.8.13/ad94df2a28d658a40dc27bbaff6a1ce5fbf04e9b/aspectjwe
+ aver-1.8.13.jar /C:/Users/dell/.m2/repository/javax/servlet/javax.ser
+ vlet-api/3.1.0/javax.servlet-api-3.1.0.jar /C:/Users/dell/.m2/reposit
+ ory/org/glassfish/javax.el/3.0.0/javax.el-3.0.0.jar /C:/Users/dell/.g
+ radle/caches/modules-2/files-2.1/org.zalando/problem/0.21.0/e7b30db36
+ 8a7c75fd878c6d455fc313e39f4cf0a/problem-0.21.0.jar /C:/Users/dell/.gr
+ adle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.0.0
+ /3ef5276905e36f4d8055fe3cb0bdcc7503ffc85d/apiguardian-api-1.0.0.jar /
+ C:/Users/dell/.gradle/caches/modules-2/files-2.1/com.google.guava/gua
+ va/25.1-jre/6c57e4b22b44e89e548b5c9f70f0c45fe10fb0b4/guava-25.1-jre.j
+ ar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/com.google.code.
+ findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305
+ -3.0.2.jar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/org.spri
+ ngframework.cloud/spring-cloud-cloudfoundry-connector/2.0.3.RELEASE/9
+ 79ccfb88e7dab51ebe0f58b1cfe82a9b187ae41/spring-cloud-cloudfoundry-con
+ nector-2.0.3.RELEASE.jar /C:/Users/dell/.gradle/caches/modules-2/file
+ s-2.1/org.springframework.cloud/spring-cloud-heroku-connector/2.0.3.R
+ ELEASE/54d04e9452bf0499b5e83f2a1e5401b9c159c0bb/spring-cloud-heroku-c
+ onnector-2.0.3.RELEASE.jar /C:/Users/dell/.m2/repository/javax/xml/bi
+ nd/jaxb-api/2.3.1/jaxb-api-2.3.1.jar /C:/Users/dell/.gradle/caches/mo
+ dules-2/files-2.1/io.swagger/swagger-annotations/1.5.20/16051f93ce11c
+ a489a5313775d825f82fcc2cd6c/swagger-annotations-1.5.20.jar /C:/Users/
+ dell/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax
+ .annotation-api-1.3.2.jar /C:/Users/dell/.gradle/caches/modules-2/fil
+ es-2.1/joda-time/joda-time/2.9.9/f7b520c458572890807d143670c9b24f4de9
+ 0897/joda-time-2.9.9.jar /C:/Users/dell/.gradle/caches/modules-2/file
+ s-2.1/org.springframework/spring-jcl/5.0.10.RELEASE/8d6a766be91ae5613
+ f2828eb9f77739a47ceb357/spring-jcl-5.0.10.RELEASE.jar /C:/Users/dell/
+ .m2/repository/javax/activation/activation/1.1/activation-1.1.jar /C:
+ /Users/dell/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-
+ core-1.2.3.jar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/org.
+ apache.logging.log4j/log4j-api/2.10.0/fec5797a55b786184a537abd39c3fa1
+ 449d752d6/log4j-api-2.10.0.jar /C:/Users/dell/.gradle/caches/modules-
+ 2/files-2.1/org.hdrhistogram/HdrHistogram/2.1.10/9e1ac84eed220281841b
+ 75e72fb9de5a297fbf04/HdrHistogram-2.1.10.jar /C:/Users/dell/.m2/repos
+ itory/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar /C:/
+ Users/dell/.gradle/caches/modules-2/files-2.1/org.jboss.xnio/xnio-nio
+ /3.3.8.Final/8dafaf230666e526c53e544ab6a9d6ecfcbab4ee/xnio-nio-3.3.8.
+ Final.jar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/org.jboss
+ .xnio/xnio-api/3.3.8.Final/7942ba8330c91a12006c912e040d25a77a58c525/x
+ nio-api-3.3.8.Final.jar /C:/Users/dell/.gradle/caches/modules-2/files
+ -2.1/org.jboss.spec.javax.annotation/jboss-annotations-api_1.2_spec/1
+ .0.2.Final/d6b20c0e95c5b38f313cc2ab1a55560cedabe1f/jboss-annotations-
+ api_1.2_spec-1.0.2.Final.jar /C:/Users/dell/.gradle/caches/modules-2/
+ files-2.1/org.jboss.spec.javax.websocket/jboss-websocket-api_1.1_spec
+ /1.1.3.Final/9f4b60cb8f2373cd34ef40c43019ed9151df0dc4/jboss-websocket
+ -api_1.1_spec-1.1.3.Final.jar /C:/Users/dell/.gradle/caches/modules-2
+ /files-2.1/org.springframework.cloud/spring-cloud-connectors-core/2.0
+ .3.RELEASE/e46200f5f5ab26a37b88aa4b0c489b25ae65ed7b/spring-cloud-conn
+ ectors-core-2.0.3.RELEASE.jar /C:/Users/dell/.m2/repository/javax/act
+ ivation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar /C:
+ /Users/dell/.gradle/caches/modules-2/files-2.1/org.checkerframework/c
+ hecker-qual/2.0.0/518929596ee3249127502a8573b2e008e2d51ed3/checker-qu
+ al-2.0.0.jar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/com.go
+ ogle.errorprone/error_prone_annotations/2.1.3/39b109f2cd352b2d71b52a3
+ b5a1a9850e1dc304b/error_prone_annotations-2.1.3.jar /C:/Users/dell/.g
+ radle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations
+ /1.1/ed28ded51a8b1c6b112568def5f4b455e6809019/j2objc-annotations-1.1.
+ jar /C:/Users/dell/.gradle/caches/modules-2/files-2.1/org.codehaus.mo
+ jo/animal-sniffer-annotations/1.14/775b7e22fb10026eed3f86e8dc556dfafe
+ 35f2d5/animal-sniffer-annotations-1.14.jar /C:/Users/dell/.gradle/cac
+ hes/modules-2/files-2.1/org.attoparser/attoparser/2.0.5.RELEASE/a93ad
+ 36df9560de3a5312c1d14f69d938099fa64/attoparser-2.0.5.RELEASE.jar /C:/
+ Users/dell/.gradle/caches/modules-2/files-2.1/org.unbescape/unbescape
+ /1.1.6.RELEASE/7b90360afb2b860e09e8347112800d12c12b2a13/unbescape-1.1
+ .6.RELEASE.jar
+

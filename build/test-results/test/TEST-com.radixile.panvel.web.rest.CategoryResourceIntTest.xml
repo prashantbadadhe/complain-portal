@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.radixile.panvel.web.rest.CategoryResourceIntTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-09-28T22:00:18" hostname="dell-PC" time="0.984">
+  <properties/>
+  <testcase name="getNonExistingCategory" classname="com.radixile.panvel.web.rest.CategoryResourceIntTest" time="0.132"/>
+  <testcase name="deleteCategory" classname="com.radixile.panvel.web.rest.CategoryResourceIntTest" time="0.107"/>
+  <testcase name="equalsVerifier" classname="com.radixile.panvel.web.rest.CategoryResourceIntTest" time="0.099"/>
+  <testcase name="getAllCategories" classname="com.radixile.panvel.web.rest.CategoryResourceIntTest" time="0.106"/>
+  <testcase name="createCategoryWithExistingId" classname="com.radixile.panvel.web.rest.CategoryResourceIntTest" time="0.111"/>
+  <testcase name="updateNonExistingCategory" classname="com.radixile.panvel.web.rest.CategoryResourceIntTest" time="0.104"/>
+  <testcase name="updateCategory" classname="com.radixile.panvel.web.rest.CategoryResourceIntTest" time="0.115"/>
+  <testcase name="createCategory" classname="com.radixile.panvel.web.rest.CategoryResourceIntTest" time="0.101"/>
+  <testcase name="getCategory" classname="com.radixile.panvel.web.rest.CategoryResourceIntTest" time="0.1"/>
+  <system-out><![CDATA[2019-09-28 18:00:18.929 ERROR 4828 --- [    Test worker] c.r.panvel.web.rest.util.HeaderUtil      : Entity processing failed, A new category cannot already have an ID
+2019-09-28 18:00:18.929  WARN 4828 --- [    Test worker] o.z.problem.spring.common.AdviceTrait    : Bad Request: A new category cannot already have an ID
+2019-09-28 18:00:18.930  WARN 4828 --- [    Test worker] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [https://www.jhipster.tech/problem/problem-with-message{400, A new category cannot already have an ID, message=error.idexists, params=category}]
+2019-09-28 18:00:19.036 ERROR 4828 --- [    Test worker] c.r.panvel.web.rest.util.HeaderUtil      : Entity processing failed, Invalid id
+2019-09-28 18:00:19.037  WARN 4828 --- [    Test worker] o.z.problem.spring.common.AdviceTrait    : Bad Request: Invalid id
+2019-09-28 18:00:19.037  WARN 4828 --- [    Test worker] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [https://www.jhipster.tech/problem/problem-with-message{400, Invalid id, message=error.idnull, params=category}]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

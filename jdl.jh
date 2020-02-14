@@ -1,0 +1,75 @@
+entity Location {
+	area String required,
+    addressLineOne String,
+    addressLineTwo	String,
+    BuildingName String,
+	streetAddress String,
+	postalCode String,
+	city String,
+	stateProvince String,
+    country String
+}
+ 
+entity Company {
+	CompanyName String required,
+    phone String,
+    email String
+}
+
+entity Branch{
+	BranchName String required,
+    phone String,
+    email String
+}
+entity Department {
+	departmentName String required,
+    phone String,
+    email String
+}
+
+entity Status{
+	status String
+}
+entity Category{
+	categoryName String
+}
+entity Complain{
+details String,
+img  ImageBlob,
+expection String,
+showAnonymous Boolean,
+escalate String,
+resolution String
+}
+relationship OneToOne{
+Complain{department} to Department,
+Complain{department} to Department,
+Complain{status} to Status
+}
+
+relationship OneToOne {
+	Company{location} to Location,
+}
+relationship ManyToOne {
+	Branch{company} to Company
+ }
+relationship OneToOne {
+    Branch{location} to Location,
+}
+
+relationship ManyToOne {
+	Department{branch} to Branch
+}
+
+
+// Set pagination options
+paginate all with pagination
+
+// Use Data Transfert Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl
+
+// Set an angular suffix
+// angularSuffix * with mySuffix

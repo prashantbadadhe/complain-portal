@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.radixile.panvel.security.jwt.JWTFilterTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-09-28T21:59:58" hostname="dell-PC" time="1.348">
+  <properties/>
+  <testcase name="testJWTFilterInvalidToken" classname="com.radixile.panvel.security.jwt.JWTFilterTest" time="0.078"/>
+  <testcase name="testJWTFilter" classname="com.radixile.panvel.security.jwt.JWTFilterTest" time="1.263"/>
+  <testcase name="testJWTFilterMissingAuthorization" classname="com.radixile.panvel.security.jwt.JWTFilterTest" time="0.001"/>
+  <testcase name="testJWTFilterMissingToken" classname="com.radixile.panvel.security.jwt.JWTFilterTest" time="0.0"/>
+  <testcase name="testJWTFilterWrongScheme" classname="com.radixile.panvel.security.jwt.JWTFilterTest" time="0.001"/>
+  <system-out><![CDATA[2019-09-28 17:59:58.348  INFO 4828 --- [    Test worker] c.r.panvel.security.jwt.TokenProvider    : Invalid JWT signature.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

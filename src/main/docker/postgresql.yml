@@ -1,0 +1,11 @@
+version: '2'
+services:
+    complainportal-postgresql:
+        image: postgres:10.4
+        # volumes:
+        #     - ~/volumes/jhipster/complainportal/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=complainportal
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
